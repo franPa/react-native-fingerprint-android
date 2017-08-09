@@ -23,7 +23,7 @@ public class FingerprintPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    //@Override Eliminate on RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
